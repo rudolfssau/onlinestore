@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+/*Navbar styling*/
+header {
+    display: flex;
+    background-color: grey;
+}
+.navbar {
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+}
+.navbar-name {
+    padding: 20px;
+    /*width: 50%;*/
+    color: white;
+    font-size: 20px;
+}
+.navbar-items {
+    /*width: 50%;*/
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+}
