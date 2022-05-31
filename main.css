@@ -22,7 +22,6 @@ body {
     font-size: 20px;
 }
 .navbar-items {
-    position: fixed;
     display: flex;
     justify-content: space-between;
     list-style-type: none;

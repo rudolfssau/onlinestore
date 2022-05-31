@@ -12,13 +12,13 @@
 <body>
 <header>
     <nav class="navbar">
-        <a href="#" class="navbar-name">Quickify</a>
+        <a href="main.php" class="navbar-name">Quickify</a>
         <ul class="navbar-items">
-                <li><a href="#" class="navbar-item">E-Store</a></li>
-                <li><a href="#" class="navbar-item">Best Deals</a></li>
-                <li><a href="#" class="navbar-item">Services</a></li>
-                <li><a href="#" class="navbar-item">Our Stores</a></li>
-                <li><a href="#" class="navbar-item">Contact Us</a></li>
+                <li><a href="estore.php" class="navbar-item">E-Store</a></li>
+                <li><a href="bestdeals.php" class="navbar-item">Best Deals</a></li>
+                <li><a href="services.php" class="navbar-item">Services</a></li>
+                <li><a href="ourstore.php" class="navbar-item">Our Stores</a></li>
+                <li><a href="contactus.php" class="navbar-item">Contact Us</a></li>
         </ul>
         <div class="dropdown">
             <span class="row"></span>
