@@ -11,17 +11,22 @@ header {
 .navbar {
     display: flex;
     flex-flow: row wrap;
+    justify-content: space-between;
     width: 100%;
 }
 .navbar-name {
     padding: 20px;
-    /*width: 50%;*/
     color: white;
     font-size: 20px;
 }
 .navbar-items {
-    /*width: 50%;*/
     display: flex;
     justify-content: space-between;
     list-style-type: none;
+}
+.navbar-items > li {
+    padding: 20px;
+}
+.navbar-items > li > a {
+    color: white;
 }
