@@ -9,7 +9,6 @@ body {
 }
 /*Navbar styling*/
 .navbar {
-    position: fixed;
     background-color: rgba(46, 40, 54, 0.9);
     display: flex;
     flex-flow: row wrap;
@@ -83,4 +82,27 @@ body {
     .navbar-items.active {
         left: 0;
     }
+}
+
+/*Footer styling*/
+
+footer {
+    margin-top: auto;
+}
+#footer-top {
+    background-color: rgba(46, 40, 54, 0.5);
+}
+#footer-bottom {
+    background-color: rgba(46, 40, 54, 0.9);
+}
+
+/*Main page*/
+
+/*News*/
+#main-news {
+    background-image: url("Backgroundpics/badfruit.jpg");
+}
+/*Recipes*/
+#main-recipes {
+    background-image: url("Backgroundpics/recipes.jpg");
 }

@@ -30,7 +30,15 @@
 <script src="dropdown.js"></script>
 
 <footer>
+    <div id="footer-top">
+        <section>
+            <h3>Accepted payment methods</h3>
+        </section>
+        <section></section>
+    </div>
+    <div id="footer-bottom">
 
+    </div>
 </footer>
 </body>
 </html>
