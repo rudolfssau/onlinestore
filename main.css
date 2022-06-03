@@ -90,7 +90,7 @@ footer {
     margin-top: auto;
 }
 #footer-top {
-    background-color: rgba(46, 40, 54, 0.5);
+    background-color: rgba(53, 61, 77, 0.9);
 }
 #footer-bottom {
     background-color: rgba(46, 40, 54, 0.9);
@@ -98,11 +98,115 @@ footer {
 
 /*Main page*/
 
+#news-recipes {
+    display: flex;
+}
+
+span.spacer {
+    width: 100px;
+    padding-top: 15px; /* font-size / 2  = (30/2=15) */
+    border-bottom: solid 1px white;
+    float: left;
+}
+span.spacer:after {
+    display:inline-block;
+    width:100%;
+    content:".";
+    font-size:0;
+    height:2px;
+    background:#000;
+    vertical-align:middle;
+    position:relative;
+    top:-1px;
+}
+.spacer-container {
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+}
+
 /*News*/
 #main-news {
+    margin: 20px;
     background-image: url("Backgroundpics/badfruit.jpg");
+    opacity: 0.5;
+    transition: 0.2s ease-in-out;
+    background-repeat: no-repeat;
+    width: 40%;
+}
+#main-news:hover {
+    opacity: unset;
 }
 /*Recipes*/
 #main-recipes {
-    background-image: url("Backgroundpics/recipes.jpg");
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    width: 60%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+#main-recipes > h2 {
+    font-weight: bold;
+}
+.bananabread > img {
+    width: 350px;
+    height: 350px;
+}
+.chickenpie > img {
+    width: 350px;
+    height: 350px;
+}
+.applepie > img {
+    width: 350px;
+    height: 350px;
+}
+.lasagna > img {
+    width: 350px;
+    height: 350px;
+}
+.bananabread > h3 {
+    padding: 10px;
+    color: rgb(225, 170, 125);
+}
+.chickenpie > h3 {
+    padding: 10px;
+    color: rgb(225, 170, 125);
+}
+.applepie > h3 {
+    padding: 10px;
+    color: rgb(225, 170, 125);
+}
+.lasagna > h3 {
+    padding: 10px;
+    color: rgb(225, 170, 125);
+}
+#recipes01, #recipes23 {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+    width: 100%;
+}
+#recipe0-container {
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+}
+#recipe1-container {
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+}
+#recipe2-container {
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+}
+#recipe3-container {
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
 }
