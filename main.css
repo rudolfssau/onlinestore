@@ -98,8 +98,9 @@ footer {
 
 /*Main page*/
 
-#news-recipes {
+#news-recipes-location {
     display: flex;
+    flex-flow: row wrap;
 }
 
 span.spacer {
@@ -108,34 +109,18 @@ span.spacer {
     border-bottom: solid 1px white;
     float: left;
 }
-span.spacer:after {
-    display:inline-block;
-    width:100%;
-    content:".";
-    font-size:0;
-    height:2px;
-    background:#000;
-    vertical-align:middle;
-    position:relative;
-    top:-1px;
-}
-.spacer-container {
-    display: flex;
-    align-items: baseline;
-    justify-content: center;
-}
 
 /*News*/
 #main-news {
     margin: 20px;
     background-image: url("Backgroundpics/badfruit.jpg");
-    opacity: 0.5;
     transition: 0.2s ease-in-out;
     background-repeat: no-repeat;
-    width: 40%;
+    width: 37.5%;
 }
-#main-news:hover {
-    opacity: unset;
+/*Location*/
+#main-storelocation {
+    width: 37.5%;
 }
 /*Recipes*/
 #main-recipes {
@@ -149,23 +134,36 @@ span.spacer:after {
     align-items: center;
 }
 #main-recipes > h2 {
+    padding: 20px;
     font-weight: bold;
+    width: 100%;
+    color: white;
+    text-align: center;
+    background-color: rgba(46, 40, 54, 0.9);;
 }
 .bananabread > img {
-    width: 350px;
-    height: 350px;
+    width: 460px;
+    height: 460px;
 }
 .chickenpie > img {
-    width: 350px;
-    height: 350px;
+    width: 460px;
+    height: 460px;
 }
 .applepie > img {
-    width: 350px;
-    height: 350px;
+    width: 460px;
+    height: 460px;
 }
 .lasagna > img {
-    width: 350px;
-    height: 350px;
+    width: 460px;
+    height: 460px;
+}
+.cake > img {
+    width: 460px;
+    height: 460px;
+}
+.bread > img {
+    width: 460px;
+    height: 460px;
 }
 .bananabread > h3 {
     padding: 10px;
@@ -183,7 +181,16 @@ span.spacer:after {
     padding: 10px;
     color: rgb(225, 170, 125);
 }
+.bread > h3 {
+    padding: 10px;
+    color: rgb(225, 170, 125);
+}
+.cake > h3 {
+    padding: 10px;
+    color: rgb(225, 170, 125);
+}
 #recipes01, #recipes23 {
+    background-color: rgba(46, 40, 54, 0.6);
     text-align: center;
     display: flex;
     justify-content: center;
@@ -191,22 +198,88 @@ span.spacer:after {
     width: 100%;
 }
 #recipe0-container {
+    opacity: 0.8;
+    transition: 0.2s ease-in-out;
     background-color: white;
     padding: 10px;
     margin: 10px;
 }
 #recipe1-container {
+    opacity: 0.8;
+    transition: 0.2s ease-in-out;
     background-color: white;
     padding: 10px;
     margin: 10px;
 }
 #recipe2-container {
+    opacity: 0.8;
+    transition: 0.2s ease-in-out;
     background-color: white;
     padding: 10px;
     margin: 10px;
 }
 #recipe3-container {
+    opacity: 0.8;
+    transition: 0.2s ease-in-out;
     background-color: white;
     padding: 10px;
     margin: 10px;
+}
+#recipe4-container {
+    opacity: 0.8;
+    transition: 0.2s ease-in-out;
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+}#recipe5-container {
+     opacity: 0.8;
+     transition: 0.2s ease-in-out;
+     background-color: white;
+     padding: 10px;
+     margin: 10px;
+ }
+
+#recipe0-container:hover {
+    opacity: unset;
+}
+#recipe1-container:hover {
+    opacity: unset;
+}
+#recipe2-container:hover {
+    opacity: unset;
+}
+#recipe3-container:hover {
+    opacity: unset;
+}
+#recipe4-container:hover {
+    opacity: unset;
+}
+#recipe5-container:hover {
+    opacity: unset;
+}
+
+/*Line trough text*/
+
+span.spacer:after {
+    display:inline-block;
+    width:100%;
+    content:".";
+    font-size:0;
+    height:2px;
+    background:#000;
+    vertical-align:middle;
+    position:relative;
+    top:-1px;
+}
+.spacer-container {
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+}
+.recipes-date {
+    color: black;
+    font-weight: lighter;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
 }

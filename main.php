@@ -28,21 +28,27 @@
     </nav>
     <script src="dropdown.js"></script>
 </header>
-    <div id="news-recipes">
+    <div id="news-recipes-location">
         <div id="main-news">
+            <h1>Quick Tip Of The Day</h1>
             <h2>The main cause for fruit to go bad?</h2>
             <h3>Microscopic bacteria cause food to spoil. These tiny organisms, called spoilage bacteria, consume unprotected foods and produce waste products. As long as nutrition and water are present, bacteria will multiply, sometimes rapidly. Bacterial waste is the cause of the foul smell and rotten appearance of spoiled food.</h3>
             <h3>Prevent this by storing your food in dry places and not leaving it out long.</h3>
             <a href="#">Continue reading</a>
         </div>
+        <div id="main-storelocation">
+            <h1>Where Are We Located?</h1>
+        </div>
+
+<!--        Uztaisa ka news un locations ir viens zem otra, tad blakus recipes-->
         <div id="main-recipes">
-            <h2>Todays recommended recipes!</h2>
+            <h2>Our Recommended Recipes</h2>
             <section id="recipes01">
                 <div id="recipe0-container">
                     <a href="#" class="recipe0">
                         <section class="bananabread">
                             <img src="recipes/bananabread.jpg" alt="#">
-                            <div class="spacer-container"><span class="spacer"></span><h4>12 May 2022</h4><span class="spacer"></span></div>
+                            <div class="spacer-container"><span class="spacer"></span><h4 class="recipes-date">12 May 2022</h4><span class="spacer"></span></div>
                             <h3>The Best Banana Bread Ever!</h3>
                         </section>
                     </a>
@@ -51,8 +57,17 @@
                     <a href="#" class="recipe1">
                         <section class="chickenpie">
                             <img src="recipes/chickenpie.jpg" alt="#">
-                            <div class="spacer-container"><span class="spacer"></span><h4>3 June 2022</h4><span class="spacer"></span></div>
+                            <div class="spacer-container"><span class="spacer"></span><h4 class="recipes-date">3 June 2022</h4><span class="spacer"></span></div>
                             <h3>Our Favorite, The Chicken Potpie.</h3>
+                        </section>
+                    </a>
+                </div>
+                <div id="recipe4-container">
+                    <a href="#" class="recipe4">
+                        <section class="bread">
+                            <img src="recipes/bread.jpg" alt="#">
+                            <div class="spacer-container"><span class="spacer"></span><h4 class="recipes-date">8 July 2022</h4><span class="spacer"></span></div>
+                            <h3>Healthy, Homemade Bread</h3>
                         </section>
                     </a>
                 </div>
@@ -62,8 +77,8 @@
                     <a href="#" class="recipe2">
                         <section class="applepie">
                             <img src="recipes/applepie.jpg" alt="#">
-                            <div class="spacer-container"><span class="spacer"></span><h4>25 August 2022</h4><span class="spacer"></span></div>
-                            <h3>Tastiest Apple Pie, Period.</h3>
+                            <div class="spacer-container"><span class="spacer"></span><h4 class="recipes-date">25 August 2022</h4><span class="spacer"></span></div>
+                            <h3>Tastiest Apple Pie EVER, Period.</h3>
                         </section>
                     </a>
                 </div>
@@ -71,17 +86,26 @@
                     <a href="#" class="recipe3">
                         <section class="lasagna">
                             <img src="recipes/lasagna.jpg" alt="#">
-                            <div class="spacer-container"><span class="spacer"></span><h4>8 July 2022</h4><span class="spacer"></span></div>
+                            <div class="spacer-container"><span class="spacer"></span><h4 class="recipes-date">8 July 2022</h4><span class="spacer"></span></div>
                             <h3>Traditional Lasagna</h3>
+                        </section>
+                    </a>
+                </div>
+                <div id="recipe5-container">
+                    <a href="#" class="recipe5">
+                        <section class="cake">
+                            <img src="recipes/cake.jpg" alt="#">
+                            <div class="spacer-container"><span class="spacer"></span><h4 class="recipes-date">8 July 2022</h4><span class="spacer"></span></div>
+                            <h3>Moist Chocolate Cake</h3>
                         </section>
                     </a>
                 </div>
             </section>
         </div>
     </div>
-    <div id="main-storelocation"></div>
-    <div id="main-delivery"></div>
-    <div id="main-"></div>
+    <div id="main-delivery">
+        <h1>How We Simplify Food Delivery</h1>
+    </div>
 <footer>
     <div id="footer-top">
         <section>
