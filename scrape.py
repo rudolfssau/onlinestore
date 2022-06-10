@@ -7,3 +7,6 @@ item = soup.findAll("div", {"class" : "productESpot gridItem"})
 for item in soup.findAll("div", {"class" : "productESpot gridItem"}):
     for getatag in item.findAll("img"):
         print(getatag['src'])
+
+with open("output.html", "w", encoding='utf-8') as file:
+    file.write(str(getatag))
