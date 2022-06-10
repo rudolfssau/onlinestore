@@ -28,19 +28,25 @@
     </nav>
     <script src="dropdown.js"></script>
 </header>
-    <div id="news-recipes-location">
+    <div id="main-info">
         <div id="main-news">
-            <h1>Quick Tip Of The Day</h1>
-            <h2>The main cause for fruit to go bad?</h2>
-            <h3>Microscopic bacteria cause food to spoil. These tiny organisms, called spoilage bacteria, consume unprotected foods and produce waste products. As long as nutrition and water are present, bacteria will multiply, sometimes rapidly. Bacterial waste is the cause of the foul smell and rotten appearance of spoiled food.</h3>
-            <h3>Prevent this by storing your food in dry places and not leaving it out long.</h3>
-            <a href="#">Continue reading</a>
+            <h2>Quick Tip Of The Day</h2>
+            <div>
+                <h2>The main cause for fruit to go bad?</h2>
+                <h3>Microscopic bacteria cause food to spoil. These tiny organisms, called spoilage bacteria, consume unprotected foods and produce waste products. As long as nutrition and water are present, bacteria will multiply, sometimes rapidly. Bacterial waste is the cause of the foul smell and rotten appearance of spoiled food.</h3>
+                <h3>Prevent this by storing your food in dry places and not leaving it out long.</h3>
+                <div><a href="#">Continue reading</a></div>
+            </div>
         </div>
-        <div id="main-storelocation">
-            <h1>Where Are We Located?</h1>
+        <div id="main-new">
+            <h2>Freshly Delivered Today</h2>
+            <div>
+                <section id="delivered">
+                    <!--                With python webscraping put in new products-->
+                    <h1>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto atque corporis debitis dolore, expedita explicabo fugit itaque iusto laboriosam laborum minus nam neque pariatur placeat porro recusandae velit veritatis. Commodi!</h1>
+                </section>
+            </div>
         </div>
-
-<!--        Uztaisa ka news un locations ir viens zem otra, tad blakus recipes-->
         <div id="main-recipes">
             <h2>Our Recommended Recipes</h2>
             <section id="recipes01">
@@ -102,9 +108,12 @@
                 </div>
             </section>
         </div>
-    </div>
-    <div id="main-delivery">
-        <h1>How We Simplify Food Delivery</h1>
+        <div id="main-delivery">
+            <h2>How We Simplify Food Delivery</h2>
+            <div>
+                <h1>hi</h1>
+            </div>
+        </div>
     </div>
 <footer>
     <div id="footer-top">

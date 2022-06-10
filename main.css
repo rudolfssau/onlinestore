@@ -98,7 +98,7 @@ footer {
 
 /*Main page*/
 
-#news-recipes-location {
+#main-info {
     display: flex;
     flex-flow: row wrap;
 }
@@ -111,22 +111,37 @@ span.spacer {
 }
 
 /*News*/
+
 #main-news {
-    margin: 20px;
-    background-image: url("Backgroundpics/badfruit.jpg");
-    transition: 0.2s ease-in-out;
-    background-repeat: no-repeat;
-    width: 37.5%;
+    text-align: center;
+    width: 50%;
 }
-/*Location*/
-#main-storelocation {
-    width: 37.5%;
+#main-news > h2 {
+    font-weight: bold;
+    background-color: rgba(46, 40, 54, 0.9);
+    color: white;
+    padding: 20px;
 }
+#main-news > div {
+    background-color: rgba(46, 40, 54, 0.6);
+}
+#main-news > div > h2 {
+    padding: 15px;
+}
+#main-news > div > div {
+    padding: 40px;
+}
+#main-news > div > div > a {
+    padding: 20px;
+    border-radius: 15px;
+    background-color: white;
+}
+#main-news > div > h3:nth-of-type(2) {
+    padding-top: 20px;
+}
+
 /*Recipes*/
 #main-recipes {
-    margin-top: 20px;
-    margin-bottom: 20px;
-    margin-right: 20px;
     width: 60%;
     display: flex;
     flex-flow: row wrap;
@@ -257,9 +272,7 @@ span.spacer {
 #recipe5-container:hover {
     opacity: unset;
 }
-
 /*Line trough text*/
-
 span.spacer:after {
     display:inline-block;
     width:100%;
@@ -282,4 +295,37 @@ span.spacer:after {
     padding-left: 20px;
     padding-right: 20px;
     padding-bottom: 10px;
+}
+
+/*Store Location*/
+
+#main-new {
+    transition: 0.2s ease-in-out;
+    width: 50%;
+    text-align: center;
+}
+#main-new > div {
+    background-color: rgba(46, 40, 54, 0.6);
+}
+#main-new > h2 {
+    color: white;
+    background-color: rgba(46, 40, 54, 0.9);
+    padding: 20px;
+}
+
+/*Food delivery*/
+
+#main-delivery {
+    transition: 0.2s ease-in-out;
+    width: 40%;
+    text-align: center;
+}
+#main-delivery > div {
+    background-color: rgba(46, 40, 54, 0.6);
+}
+#main-delivery > h2 {
+    color: white;
+    font-weight: bold;
+    background-color: rgba(46, 40, 54, 0.9);
+    padding: 20px;
 }
