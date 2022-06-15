@@ -111,7 +111,10 @@
         <div id="main-delivery">
             <h2>How We Simplify Food Delivery</h2>
             <div>
-                <h1>hi</h1>
+                <h1>We also offer food delivery right to your door!</h1>
+                <h2>During the covid lockdown food delivery has become a more and more popular way to receive food. We have made this process really easy and accessible, with only a few steps you can get your food delivered right to your doorstep.</h2>
+                <h1>How </h1>
+                <img src="Pics/delivery.jpg" alt="#">
             </div>
         </div>
     </div>
