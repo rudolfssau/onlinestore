@@ -39,10 +39,11 @@
             </div>
         </div>
         <div id="main-new">
-            <h2>Freshly Delivered Today</h2>
+            <h2>Delivered Today</h2>
             <div>
                 <section id="product-container">
-                    <div id="product-newnow"></div>
+                    <div id="product-newnow">
+                    </div>
                 </section>
             </div>
         </div>

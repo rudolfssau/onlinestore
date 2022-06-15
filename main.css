@@ -141,6 +141,7 @@ span.spacer {
 }
 
 /*Recipes*/
+
 #main-recipes {
     width: 60%;
     display: flex;
@@ -329,3 +330,28 @@ span.spacer:after {
     background-color: rgba(46, 40, 54, 0.9);
     padding: 20px;
 }
+
+/*New products*/
+
+#main-new {
+
+}
+#product-container {
+
+}
+#product-newnow {
+    background-color: white;
+
+}
+#product-newnow-img {
+    transition: 0.2s ease-in-out;
+    opacity: 0.8;
+    height: 250px;
+    width: auto;
+    padding: 20px 10px;
+}
+#product-newnow-img:hover {
+    opacity: unset;
+}
+
+/*Element sizing for normal screen*/
