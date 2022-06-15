@@ -41,17 +41,8 @@
         <div id="main-new">
             <h2>Freshly Delivered Today</h2>
             <div>
-                <section id="slide-container">
-                    <div>
-                        <div class="numbertxt">1 / 3</div>
-<!--                        <img-->
-                    </div>
-                    <div>
-                        <div class="numbertxt">2 / 3</div>
-                    </div>
-                    <div>
-                        <div class="numbertxt">3 / 3</div>
-                    </div>
+                <section id="product-container">
+                    <div id="product-newnow"></div>
                 </section>
             </div>
         </div>
@@ -162,6 +153,8 @@
 <!--            Make a subscription box HERE-->
         </section>
     </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+    <script src="json.js"></script>
 </footer>
 </body>
 </html>
