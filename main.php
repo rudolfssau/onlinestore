@@ -32,16 +32,19 @@
     <script src="dropdown.js"></script>
 </header>
     <div id="main-info">
-        <img src="https://template66566.motopreview.com/mt-demo/66500/66566/mt-content/uploads/2018/07/mt-1533_home_slider-1.jpg" alt="#">
-        <img src="https://template66566.motopreview.com/mt-demo/66500/66566/mt-content/uploads/2018/07/mt-1533_home_slider-1.jpg" alt="#">
-        <img src="https://template66566.motopreview.com/mt-demo/66500/66566/mt-content/uploads/2018/07/mt-1533_home_slider-1.jpg" alt="#">
-        <img src="https://template66566.motopreview.com/mt-demo/66500/66566/mt-content/uploads/2018/07/mt-1533_home_slider-1.jpg" alt="#">
-        <img src="https://template66566.motopreview.com/mt-demo/66500/66566/mt-content/uploads/2018/07/mt-1533_home_slider-1.jpg" alt="#">
-        <img src="https://template66566.motopreview.com/mt-demo/66500/66566/mt-content/uploads/2018/07/mt-1533_home_slider-1.jpg" alt="#">
-        <img src="https://template66566.motopreview.com/mt-demo/66500/66566/mt-content/uploads/2018/07/mt-1533_home_slider-1.jpg" alt="#">
-        <img src="https://template66566.motopreview.com/mt-demo/66500/66566/mt-content/uploads/2018/07/mt-1533_home_slider-1.jpg" alt="#">
-        <img src="https://template66566.motopreview.com/mt-demo/66500/66566/mt-content/uploads/2018/07/mt-1533_home_slider-1.jpg" alt="#">
+        <div id="main-info-img-container"><img src="https://template66566.motopreview.com/mt-demo/66500/66566/mt-content/uploads/2018/07/mt-1533_home_slider-1.jpg" alt="#"></div>
+        <div class="img-text-container">
+            <span id="img-text-container-inner">
+                <div>
+                    <a href="#" id="img-text-1">THE FRESHEST GROCERIES</a>
+                    <a href="#" id="img-text-2">EXTRA 15% OFF</a>
+                    <a href="#" id="img-text-3">Snacks, Condiments, Breakfast Foods <br> & more...</a>
+                </div>
+            </span>
+        </div>
     </div>
+<h1>test</h1>
+<h2>test2</h2>
 <!--        <div id="main-new">-->
 <!--            <h2>Delivered Today</h2>-->
 <!--            <div>-->
